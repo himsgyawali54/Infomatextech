@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.info{
+    color:rgb(112 112 230);
+    font-size: 18px;
+    
+}
+i:hover {
+    color: white;
+    
+  }
+
+ .main{
+    background-color: rgb(234, 228, 228);
+}
+.choose{
+  text-align: center;
+    color:rgb(132, 7, 248);
+    
+} 
+.choose1{
+    color:rgb(182, 62, 120);
+    
+} 
+
+.about{
+    margin-left: 300px;
+}
+.about1{
+    background-image: url("about.jpg");
+    width: 420px;
+    height:300px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 1px solid rgb(252, 251, 251);
+    
+}
+
+#design{
+    background-color: rgba(253, 252, 252, 0.885);
+    margin-bottom: 40px;
+}
+.why{
+    background-color: #d6d6d28f;
+}
+
+ .select{
+    text-align: center;
+    margin-top: 50px;
+    color:#5a5a55;
+   
+} 
+.content    {
+    margin-left: 50px;
+    font-size: 25px;
+    color:brown;
+    
+}
+.content1{
+    margin-left: 20px;
+    font-size: 25px;
+    color:brown;   
+}
+.content2{
+    margin-left: 50px;
+    font-size: 25px;
+    color:brown;   
+}
+.content3{
+    margin-left: 20px;
+    font-size: 25px;
+    color:brown;   
+}
+.image{
+    border-radius: 60%;
+    height:50px;
+    width:60px;
+    margin-left: 10px;
+}
+.image1{
+    border-radius: 60%;
+    height:50px;
+    width:60px;
+    margin-left: 10px;
+    
+}
+.cdesign{
+    background-color: rgb(241, 239, 237);
+    margin-bottom: 15px;
+}
+.services{
+    background-color: #f7f4f0;
+}
+#announce{
+    background-color:rgb(240 231 231 / 51%);
+   
+    
+}
+  .vacancy{  
+   
+   padding:10px;  
+}  
+.card-body{
+    width: 1150px;
+    height:470px;
+    margin-top:20px;
+    border: 2px solid rgb(228 240 228 / 64%);
+    background:#f0f0ba57
+  }
+.bubble {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    width: 500px;
+    background:rgb(182 183 198);
+    border-radius: 10px;
+    padding: 54px;
+    text-align: center;
+    color: #000;
+    margin:30px;
+    float:right;
+    height:400px;
+    border-radius: 30px;
+  }
+  .bubble-bottom-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid rgb(182 182 194);
+    border-right: 12px solid transparent;
+    border-top: 12px solid rgb(183 184 200 / 99%);
+    border-bottom: 20px solid transparent;
+    left: 52px;
+    bottom: -30px;
+  }
+  .qualification{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+
+  }
+  .moreinfo{
+    font-size: 13px;
+    margin-left: 40px;
+    padding: 10px;
+    margin-top:25px;
+  }
+ 
+  
+    
