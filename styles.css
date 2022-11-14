@@ -35,16 +35,33 @@ body{
  .main{
     background-color: rgb(234, 228, 228);
 }
+@media screen and (min-width: 900px) {
 .carousel-caption{
   position: absolute; 
   top: 20%; 
   left: 55%; 
+  text-align: center;
+    
+}
+}
+@media screen and (max-width: 900px) and (min-width: 576px){
+  .carousel-caption {
+        
+        position: absolute; 
+        top: 20%; 
+        left: 55%; 
+        text-align: center;    
+  }
+   .carousel-caption h1{
+   text-align: center;
+    
+  } 
 }
 
 .carousel-caption p{
   text-align: justify;
   font-size: 18px;
-  justify-content: center;
+  
 }
 .ghost{
   color: rgb(101, 99, 91);
@@ -229,17 +246,12 @@ section{
   .u-list li{
     line-height: 36px;
   }
-  .icon{
-    color: rgb(81, 81, 207);
-  }
-  .icon1{
-    color: rgb(211, 125, 93);
-  }
+  
   .foot-color{
     background-color:#eb3238d6 ; 
   }
   .footer{
-    padding-top: 50px;
+    padding-top: 35px;
   }
   .foot-informatex{
     text-align: justify;
@@ -250,6 +262,18 @@ section{
  .copyright{
    background-color: rgba(69, 68, 68, 0.179);
    
+ }
+ form .form-label {
+  margin-bottom: 0 !important;
+}
+form input{
+  margin-bottom: .1rem !important;
+}
+ button{
+  background-color: #e94a50;
+  border: 1px solid rgb(228 240 228 / 64%);
+  color:white;
+  
  }
  
   
