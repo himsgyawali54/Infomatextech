@@ -17,24 +17,34 @@ body{
     
 }
 .navbar-expand-lg{
-  background-color:#ED4E53;
+  background-color:#890000;
   font-weight: bold;
+  
  
 }
-
+.navbar-brand {
+  color:rgb(241, 233, 218) !important;
+}
+.navbar-nav a {
+  color:rgb(241, 233, 218) !important;
+}
   
 .navbar-expand-lg :hover {
-    color: rgb(239, 239, 243) !important;
+    color: rgb(143, 143, 210) !important;
     
+  }
+   .navbar-expand-lg .dropdown-menu :hover {
+    color:black !important;
+    
+  } 
+  .navbar-expand-lg .dropdown-menu {
+    background-color: #890000;
   }
   .justify-content-end {
     margin-right: 80px !important;
   }
  
 
- .main{
-    background-color: rgb(234, 228, 228);
-}
 @media screen and (min-width: 900px) {
 .carousel-caption{
   position: absolute; 
@@ -52,10 +62,7 @@ body{
         left: 55%; 
         text-align: center;    
   }
-   .carousel-caption h1{
-   text-align: center;
-    
-  } 
+   
 }
 
 .carousel-caption p{
@@ -87,7 +94,9 @@ section{
   text-align: center;
  margin-bottom: 0 !important;
 }
-
+.about{
+  padding-left: 250px;
+}
 
  .about1{
    
@@ -248,7 +257,7 @@ section{
   }
   
   .foot-color{
-    background-color:#eb3238d6 ; 
+    background-color:#890000db; 
   }
   .footer{
     padding-top: 35px;
@@ -269,8 +278,11 @@ section{
 form input{
   margin-bottom: .1rem !important;
 }
+textarea{
+  resize: none;
+}
  button{
-  background-color: #e94a50;
+  background-color: #852c2c;
   border: 1px solid rgb(228 240 228 / 64%);
   color:white;
   
