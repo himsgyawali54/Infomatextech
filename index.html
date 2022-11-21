@@ -2,114 +2,116 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Informatextech</title>
-
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-    crossorigin="anonymous"
-  />
+  <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <body>
     <!-- navbar -->
     <header id="header" class="header fixed-top" data-scrollto-offset="0">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Informatextech</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Informatextech</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle active"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#services">Content Writing</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#services">Ghost Writing</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#services"
-                    >Technical Writing</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#services">Legal Writing</a>
-                </li>
-              </ul>
-            </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#services"
+                      >Content Writing</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#services">Ghost Writing</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#services"
+                      >Technical Writing</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#services">Legal Writing</a>
+                  </li>
+                </ul>
+              </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle active"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Latest Jobs
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#announce">Finanace Writer</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#announce">Static Writer</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#announce">Law Writer</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#announce">Nurshing Writer</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#announce"
-                    >Accounting Writer</a
-                  >
-                </li>
-                <li><a class="dropdown-item" href="#announce">IT Expert</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#design"
-                >About Us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#contact"
-                >Contact</a
-              >
-            </li>
-          </ul>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Latest Jobs
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#announce"
+                      >Finanace Writer</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#announce">Static Writer</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#announce">Law Writer</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#announce"
+                      >Nurshing Writer</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#announce"
+                      >Accounting Writer</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#announce">IT Expert</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#design"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     </header>
 
     <!-- carousel -->
@@ -120,52 +122,53 @@
       data-bs-ride="carousel"
     >
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="8000">
+        <div class="carousel-item active" data-bs-interval="6000">
           <img
-            src="fslide.png"
+            src="2ssss.jpg"
             class="d-block w-100"
             alt="..."
-            height="650px"
+            height="690px"
             class="img-fluid"
           />
           <div class="carousel-caption d-none d-md-block d-sm-block">
-            <h1 >Welcome To Informatex</h1>
+            <h2>Welcome To Informatex</h2>
             <p>
               Professional writing is a style of writing that is clear, concise,
-              and seeks to convey information and ideas quickly in a
-              professional setting.
+              and seeks to convey information and ideas quickly.
             </p>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="8000">
+        <div class="carousel-item" data-bs-interval="6000">
           <img
-            src="2slide.png"
-            class="d-block w-100"
+            src="2ssss.jpg"
+            class="d-block w-100 img-fluid"
             alt="..."
-            height="650px"
+            height="690px"
           />
           <div class="carousel-caption d-none d-md-block d-sm-block">
-            <h1>Welcome To Informatex</h1>
+            <!-- <h2>Welcome To Informatex</h2> -->
             <p>
-              Professional writing is a style of writing that is clear, concise,
-              and seeks to convey information and ideas quickly in a
-              professional setting.
+              Content writing is the process of planning, writing and editing
+              web content, typically for digital marketing purposes. It can
+              include writing blog posts and articles, scripts for videos and
+              podcasts, as well as content for specific platforms.
             </p>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="8000">
+        <div class="carousel-item" data-bs-interval="6000">
           <img
-            src="3slide.png"
-            class="d-block w-100"
+            src="3s2.jpg"
+            class="d-block w-100 img-fluid"
             alt="..."
-            height="650px"
+            height="690px"
           />
           <div class="carousel-caption d-none d-md-block d-sm-block">
-            <h1>Welcome To Informatex</h1>
+            <!-- <h2>Welcome To Informatex</h2> -->
             <p>
-              Professional writing is a style of writing that is clear, concise,
-              and seeks to convey information and ideas quickly in a
-              professional setting.
+              Technical writing is writing or drafting technical communication
+              used in technical and occupational fields, such as computer
+              hardware and software, architecture, engineering, chemistry,
+              aeronautics, robotics, and forestry.
             </p>
           </div>
         </div>
@@ -194,14 +197,11 @@
 
     <section id="design">
       <div class="container">
-        <div class="row ">
-         
-          
+        <div class="row">
           <div
-            class="col-lg-6 col-sm-6 d-flex flex-column justify-content-center align-item-center  py-2"
+            class="col-sm-6 col-lg-6 d-flex flex-column justify-content-center align-item-center py-2"
           >
-        
-          <h2 class="text-center">About Us</h2>
+            <h2 class="text-center">About Us</h2>
             <p>
               Informatex Tech is the leading company providing the best quality
               work by the trained and experienced content writer. We believe in
@@ -218,7 +218,7 @@
           </div>
 
           <div
-            class="col-lg-6 col-sm-6 d-flex justify-content-center align-item-center"
+            class="col-sm-6 col-lg-6  d-flex justify-content-center align-item-center"
           >
             <div class="about1">
               <img
@@ -265,20 +265,18 @@
 
           <div class="cdesign justify-content-center p-4">
             <div class="row py-3">
-              <div class="col-lg-6 col-sm-6">
+              <div class="col-sm-6 col-lg-6 ">
                 <img src="contw.png" class="image img-fluid mx-auto d-block" />
 
-                
-                  <p class="py-2">
-                    Offering you the best content with cost efficiency, where
-                    our skilled content writers provide you with Blogs,
-                    Technical Writing, Website content, Fiction writing, Ghost
-                    Writing etc. We create well researched, engaging and
-                    audience-oriented content.
-                  </p>
-                
+                <p class="py-2">
+                  Offering you the best content with cost efficiency, where our
+                  skilled content writers provide you with Blogs, Technical
+                  Writing, Website content, Fiction writing, Ghost Writing etc.
+                  We create well researched, engaging and audience-oriented
+                  content.
+                </p>
               </div>
-              <div class="col-lg-6 col-sm-6">
+              <div class="col-sm-6 col-lg-6 ">
                 <img src="gstw.png" class="image img-fluid mx-auto d-block" />
 
                 <p class="py-2">
@@ -291,7 +289,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-6 col-sm-6">
+              <div class="col-sm-6 col-lg-6 ">
                 <img src="tecw.png" class="image img-fluid mx-auto d-block" />
 
                 <p class="py-2">
@@ -302,7 +300,7 @@
                   reader in how to use that information.
                 </p>
               </div>
-              <div class="col-lg-6 col-sm-6">
+              <div class="col-sm-6 col-lg-6 ">
                 <img src="legw.png" class="image1 img-fluid mx-auto d-block" />
 
                 <p class="py-2">
@@ -319,13 +317,17 @@
         </div>
       </div>
     </section>
+   
 
     <!-- vacancy announcement -->
     <section id="announce">
-      <div class="container">
-        <div class="row bg-box">
-          <div class="col-lg-6 col-sm-6 justify-content-center py-4">
-            <h1 class="vacancy">Job vacancy announcement</h1>
+      <div class="container mb-3">
+        <div class="row bg-box d-flex justify-content-center align-item-center">
+          <h1 class="text-center py-1">Job vacancy announcement</h1>
+
+          <div
+            class="col-sm-6 col-lg-6  d-flex flex-column justify-content-center align-item-center py-4 vacancy-1"
+          >
             <p class="seek py-1">We Are Looking For:</p>
 
             <ul class="u-list">
@@ -333,7 +335,7 @@
               <li>Law/Finance/Other writers and IT Expert</li>
 
               <li>Freshers can also apply for the Job</li>
-              <li>DROP YOUR CVs/RESUME HERE-</li>
+              <li>Drop your Cvs/Resume here-</li>
               <a href="hr@informatextech.com">hr@informatextech.com</a>
             </ul>
 
@@ -342,16 +344,16 @@
               <i class="bi bi-telephone"></i>+977-9847057893
             </p>
           </div>
-          <div class="col-lg-6 col-sm-6 d-flex justify-content-center">
+
+          <div
+            class="col-sm-6 col-lg-6  d-flex flex-column justify-content-center align-item-center vacancy-2"
+          >
             <div class="bubble bubble-bottom-left">
-              <h4 class="qualification py-1">Required Qualifications:</h4>
+              <p class="qualification">Required Qualifications:</p>
               <ul>
-                <li>Master/Bachelor Degree in Business/Finance/Accounting</li>
-                <li>
-                  Good Knowledge of MS Excel<br />
-                  or MS Word
-                </li>
-                <li>Master/Bachelor Degree in Business/Finance/Accounting</li>
+                <li>Master/Bachelor Degree in Business/ Finance/Accounting</li>
+                <li>Good Knowledge of MS Excel or MS Word</li>
+                <li>Master/Bachelor Degree in Business/ Finance/Accounting</li>
               </ul>
             </div>
           </div>
@@ -361,13 +363,15 @@
 
     <!-- footer -->
 
-    <section id="contact">
+    <div id="contact ">
       <footer class="text-center text-lg-start text-white foot-color">
         <div class="container text-center text-md-start footer">
           <!-- Grid row -->
           <div class="row">
             <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-3">
+            <div
+              class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-3 d-flex flex-column justify-content-center align-item-center"
+            >
               <!-- Content -->
               <h6 class="text-uppercase fw-bold mb-3">
                 <i class="fas fa-gem"></i>Informatextech
@@ -381,67 +385,77 @@
               </p>
             </div>
             <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-3">
+            <div
+              class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 d-flex flex-column justify-content-center align-item-center contact-form"
+            >
+              <h6 class="text-uppercase fw-bold pt-4 text-center">
+                Contact Form
+              </h6>
               <!-- form -->
               <form
                 action="https://formsubmit.co/hr@informatextech.com"
                 method="POST"
+                class="py-2"
               >
                 <div>
-                  <label for="exampleInputText1" class="form-label">Your Name</label>
+                  <label for="exampleInputText1" class="form-label"></label>
                   <input
                     type="text"
                     class="form-control form-control-sm"
                     id="exampleInputText1"
                     aria-describedby="textHelp"
+                    placeholder="Your Name"
                     autocomplete="off"
                     required
                   />
                 </div>
                 <div>
-                  <label for="exampleInputEmail1" class="form-label"
-                    >Your Email</label
-                  >
+                  <label for="exampleInputEmail1" class="form-label"></label>
                   <input
                     type="email"
                     class="form-control form-control-sm"
                     id="exampleInputEmail1"
+                    placeholder="Your Email"
                     autocomplete="off"
                     required
                   />
                 </div>
                 <div>
-                  <label for="exampleInputNumber1" class="form-label"
-                    >Phone Number</label
-                  >
+                  <label for="exampleInputNumber1" class="form-label"></label>
                   <input
                     type="number"
                     class="form-control form-control-sm"
                     id="exampleInputNumber1"
+                    placeholder="Your Phone Number"
                     autocomplete="off"
                     required
                   />
                 </div>
                 <div class="mb-2">
                   <label for="exampleFormControlTextarea1" class="form-label">
-                    Message</label
-                  >
+                  </label>
                   <textarea
                     class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="2"
+                    placeholder="Message here"
                     autocomplete="off"
                     required
                   ></textarea>
                 </div>
-
-                <button type="submit" class="btn-sm">Send Message</button>
+                <div class="text-center">
+                  <button type="submit" class="btn-sm mt-1">
+                    Send Message
+                  </button>
+                </div>
               </form>
             </div>
 
             <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-3">
-              <h6 class="text-uppercase fw-bold mb-3">Contact</h6>
+            <div
+              class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-3 d-flex flex-column justify-content-center align-item-center"
+            >
+              <h6 class="text-uppercase fw-bold mb-3">Contact Details</h6>
               <p>
                 <i class="bi bi-house-door-fill me-3"></i> Dillibazar,
                 Kathmandu,Nepal
@@ -451,6 +465,12 @@
                 hr@informatextech.com
               </p>
               <p><i class="bi bi-telephone me-3"></i> +977-9847057893</p>
+              <p class="d-flex gap-3">
+                Follow us:
+                <i class="bi bi-facebook d-flex gap-2"></i>
+                <i class="bi bi-twitter d-flex gap-2"></i>
+                <i class="bi bi-linkedin d-flex gap-2"></i>
+              </p>
             </div>
           </div>
         </div>
@@ -464,7 +484,7 @@
         </div>
         <!-- Copyright -->
       </footer>
-    </section>
+    </div>
     <!-- Footer -->
 
     <!--      
@@ -473,17 +493,19 @@
   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
   crossorigin="anonymous"
 ></script> -->
-
-   
+    <script src="/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+      new PureCounter();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

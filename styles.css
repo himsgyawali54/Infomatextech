@@ -6,6 +6,10 @@ html{
 body{
   font-family: 'Nunito Sans', sans-serif;
 }
+
+section{
+  margin-top: 60px;
+}
   .navbar-brand{
     margin-left: 80px !important;
 }  
@@ -18,7 +22,7 @@ body{
 }
 .navbar-expand-lg{
   background-color:#890000;
-  font-weight: bold;
+  font-weight: bolder;
   
  
 }
@@ -30,13 +34,19 @@ body{
 }
   
 .navbar-expand-lg :hover {
-    color: rgb(143, 143, 210) !important;
+    color: pink !important;
     
   }
    .navbar-expand-lg .dropdown-menu :hover {
     color:black !important;
     
   } 
+  .dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
   .navbar-expand-lg .dropdown-menu {
     background-color: #890000;
   }
@@ -44,26 +54,32 @@ body{
     margin-right: 80px !important;
   }
  
-
-@media screen and (min-width: 900px) {
-.carousel-caption{
+ 
+ @media screen and (min-width: 900px) {
+.carousel-caption {
   position: absolute; 
-  top: 20%; 
-  left: 55%; 
+  top: 86%; 
+  left:20%;
   text-align: center;
+  color:rgb(104, 90, 90);
     
 }
+
+
 }
 @media screen and (max-width: 900px) and (min-width: 576px){
   .carousel-caption {
         
         position: absolute; 
-        top: 20%; 
-        left: 55%; 
-        text-align: center;    
+        top: 86%; 
+        left: 20%; 
+        text-align: center; 
+        color:rgb(48, 48, 48);   
   }
+  
    
-}
+}  
+
 
 .carousel-caption p{
   text-align: justify;
@@ -75,9 +91,6 @@ body{
   font-weight: 499;
 }
 
-section{
-    margin-top: 60px;
-}
 .choose{
   text-align: center;
     
@@ -103,14 +116,11 @@ section{
    background-size: cover;
    background-repeat: no-repeat;
     border: 1px solid rgb(252, 251, 251);
-    
-    
-    
-    
+      
 } 
 
 #design{
-    background-color: rgba(253, 252, 252, 0.885);
+    background-color: #fafaf78f;
 
 }
 #design p{
@@ -119,7 +129,7 @@ section{
 }
 
 .why{
-    background-color: #f1f1eb8f;
+    background-color: #fafaf78f;
     
 }
 
@@ -168,30 +178,46 @@ section{
   text-align: justify;
   
 }
-
+/* 
 .cdesign{
     background-color: rgb(246, 246, 238);
     
-}
+} */
 
 .serv-p{
   font-size: 18px;
   text-align: center;
   
 }
-   .vacancy{  
-   /* text-align: center; */
-   padding-top: 15px;
-   padding-left: 70px;
-   
+.vacancy-1{  
+    border:2px solid #890000db;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px; 
+    margin: 0 5px 0 5px;
+    
+    
+    
 }   
-#announce .bg-box{
+.vacancy-2{  
+  border:2px solid #890000db;
+  border-radius: 15px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 400px;  
+  
+  font-size: 18px;
+  
+  
+}   
+/* #announce .bg-box{
    
     border: 1px solid rgb(228 240 228 / 64%);
     background:#f0f0ba57;
 
     
-  }
+  } */
   #announce .bg-box p{
     font-size: 18px;             
     
@@ -211,7 +237,7 @@ section{
   }
   #announce .bg-box a{
     color: rgb(138, 138, 165);
-     margin-left: 50px;
+     margin-left: 20px;
     font-size: 18px;
   }
   #announce .bg-box h5{
@@ -224,21 +250,20 @@ section{
     position: relative;
     font-family: sans-serif;
     font-size: 18px;
-    line-height: 36px;
-    width: 500px;
-    background-color:#e1c4c542;
-    border-radius: 10px;
-    padding: 54px;
-    text-align: center;
-    
-    margin: 50px;
+    line-height: 34px;
+    width: 480px;
+    padding: 50px;
     height:380px;
-    border-radius: 30px;
+    
   }
  
-  .qualification h4{
+  .qualification {
     text-align: justify;
-    font-weight: 500;
+    font-weight: 600;
+    padding-left: 30px;
+  }
+  .vacancy-2 ul{
+    padding-left: 50px;
   }
   
   .moreinfo{
@@ -249,12 +274,13 @@ section{
   
    .u-list{
     
-    padding-left: 100px;
-    
+    padding-left: 100px;  
   }
+
   .u-list li{
     line-height: 36px;
   }
+ 
   
   .foot-color{
     background-color:#890000db; 
@@ -265,9 +291,7 @@ section{
   .foot-informatex{
     text-align: justify;
   }
- .socialmedia{
-  padding-left: 45px;
- }
+ 
  .copyright{
    background-color: rgba(69, 68, 68, 0.179);
    
@@ -276,15 +300,27 @@ section{
   margin-bottom: 0 !important;
 }
 form input{
-  margin-bottom: .1rem !important;
+  margin-bottom: 0.9rem !important;
+ 
 }
+
+  :placeholder{
+    color:black;
+    font-weight: 600;
+}
+
 textarea{
   resize: none;
+}
+.contact-form{
+  border:2px solid white;
 }
  button{
   background-color: #852c2c;
   border: 1px solid rgb(228 240 228 / 64%);
   color:white;
+  border-radius: 5px;
+  height:35px;
   
  }
  
